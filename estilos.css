@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ubuntu", "arial";
+    
+}
+main {
+    margin-left: 100px;
+}
+section.contenedor-sobre-nosotros {
+    padding: 60px;
+    width: 90%;
+    max-width: 100%;
+    margin: center;
+    overflow: show;
+}
+ /*-- #2A3132  #336B87  #90AFC5 */
+h2.titulo {
+    color: #4715a5;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+    font-family: "Retrow Mentho";
+}
+h2.titulo:hover {
+    color: #0a5688;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "Retrow Mentho";
+}
+
+/*    header     */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #351d02;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffffffab, #6dd4fa98, hsla(204, 64%, 44%, 0.432)), url(img/zompoña.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0000003a, #90f18798, hsla(189, 100%, 48%, 0.432)), url(img/zompoña.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+
+}
+nav > a {
+    color: rgb(239, 255, 8);
+    font-weight:100%;
+    text-decoration: none;
+    margin-right:10px;
+    font-size: 20px;
+    margin-right:40px;
+}
+nav > a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight:1000;
+    margin-right:20px;
+}
+section.textos-header /*aqui modificare version originar: header.textos-header */ {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Kanit";
+    font-size: 30px;
+    color: #1b198b;
+}
+.textos-header.h1 {
+    font-size: 50px;
+    color: #763626;
+        }
+
+.textos-header.h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #0041a3;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*--descripcion--*/
+.contenedor-about-us {
+    display: flex;
+    justify-content: space-evenly;
+      
+}
+.imagen-tipo-slide {
+    width: 50%;
+}
+.contenedor-about-us .contenedor-textos {
+    width: 48%;
+}
+.contenedor-textos h3 {
+    margin-bottom: 15px;
+}
+.contenedor-textos h3 span {
+    background: #781691;
+    color:white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    margin-right: 5px;
+} 
+.contenedor-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+footer { 
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+div.content_foo  {
+    font-family: ubuntu;
+    padding: 10px 10px 10px;
+    font-size: 20px;
+}
+div.content_foo.h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.miciudad {
+    width: 30px;
+}
+.mipais {
+    width: 30px;
+}
+.contenido {
+    font-size: 22px;
+    text-justify: center;
+    text-align: center;
+}
+/*---body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: e8e8e8;
+}  
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 100;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+}
+@font-face {
+    font-family: "Paraelnav";
+    src: url("Fonts/Paraelnav.ttf");
+  }
+.p{
+    font-family:"Paraelnav";
+    font-size: 24px;
+}
+/*-----para el diseño del footer-------------------
+@font-face{
+        font-family:"fuentefooter";
+        src: url("Fonts/fuentefooter.ttf");
+    }
+footer li { 
+    font-family:"fuentefooter";
+    font-size: 20px;
+}-----*/
